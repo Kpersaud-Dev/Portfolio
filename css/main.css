@@ -1,0 +1,224 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/***** GRID *****/
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+.third-width {
+  width: 33.33%;
+  float: left;
+}
+
+
+/***** HEADER *****/
+
+header .full-width {
+  height: 800px;
+  width: 100%;
+}
+
+header {
+  background: url('../img/desk-coffee.png');
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+
+}
+
+header h1 {
+  padding: 150px 500px 0px 200px;
+  font-size: 55px;
+  color: #663300;
+  font-family: 'Teko', sans-serif;
+  margin: 0;
+
+}
+
+header h2 {
+  width: 400px;
+  padding: 250px 100px 0 700px;
+  color: #095156;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Baloo Chettan 2', sans-serif;
+  font-weight: lighter;
+
+}
+
+/***** MY-PORTFOLIO *****/
+#my-portfolio {
+  height: 1450px;
+  color: #195e61;
+  width: 100%;
+}
+
+#my-portfolio .full-width {
+  color: #195e61;
+  overflow: auto;
+  width: 100%;
+}
+
+#my-portfolio .half-width {
+
+  width: 50%;
+  height: 400px
+}
+
+#my-portfolio h3 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#my-portfolio h4, #my-portfolio h5, #my-portfolio p {
+  padding: 0 30px;
+
+}
+
+#my-portfolio h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#my-portfolio h5 {
+  font-weight: lighter;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 15px;
+}
+
+#my-portfolio p{
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 15px;
+}
+
+#rogue-img, #jubilee-img, #afiasco-img {
+
+  width: 550px;
+  height: 350px;
+  float: left;
+  border: 2.5px solid #b7b7b7;
+  margin: 20px;
+}
+
+/***** ABOUT ME *****/
+
+#about-me {
+  height: 650px;
+  background-color: #087e8b;
+  width: 100%;
+}
+
+#about-me .full-width {
+  background-color: #087e8b;
+  width: 100%;
+}
+
+#about-me .half-width {
+  background-color: #087e8b;
+  height: 650px;
+  width: 50%;
+  float: left;
+}
+
+
+#about-me h3 {
+  text-align: center;
+  font-size: 40px;
+  background-color: #087e8b;
+  color: white;
+  padding-top: 80px;
+}
+
+#about-me h4 {
+  padding: 0 30px;
+  color: white;
+  font-family: 'Sen', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#about-me p {
+  padding: 0 30px;
+  color: white;
+  font-family: 'Sen', sans-serif;
+  line-height: 30px;
+}
+
+#photo {
+  max-width: 100%;
+  height: 450px;
+  float: left;
+  border: 2.5px solid #095156;
+  margin-left: 100px;
+}
+
+/***** CONNECT *****/
+
+#connect {
+  height: 450px;
+  background-color: #095156;
+}
+
+#connect .full.width {
+  background-color: #095156;
+  height: 125px;
+  width: 100%;
+}
+
+#connect .third-width {
+  background-color: #095156;
+  width: 33.33%;
+  float: left;
+  height: 350px;
+}
+
+#connect h3 {
+  text-align: center;
+  font-size: 40px;
+  background-color: #095156;
+  color: white;
+  padding-top: 160px;
+
+}
+
+#connect h4 {
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  font-family: 'Sen', sans-serif;
+}
+
+#connect h5 {
+  text-align: center;
+  color: white;
+  font-family: 'Sen', sans-serif;
+  line-height: 1px;
+}
+
+#github, #linkedin {
+  padding: 0 75px;
+  
+}
+
+/****** FOOTER *****/
+
+footer {
+  width: 100%;
+  background-color: #095156;
+}
+
+footer h6 {
+  text-align: center;
+  color: white;
+  margin:0;
+}
